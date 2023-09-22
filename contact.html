@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>Contact us</title>
+</head>
+<body>
+    <header>
+        <button class="hamburger" id="hamburger-icon">
+            <span onclick="openNavbar()"> ☰</span>
+        </button>
+      
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#reachUs-button">Enquiry</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact-info">Services</a></li>
+            </ul>
+        </nav>
+        <button class="reachUs-button"><a href="tel:3335656352">Call us</a> </button>
+    </header>
+ 
+    <!-- banner section  -->
+    <section class="banner">
+        
+        <h1>Get in Touch With Us</h1>
+        <p>We're here to answer any questions you may have.</p>
+    </section>
+ 
+    <!-- Contact form -->
+    <section class="contact-form">
+        <div class="form-container">
+            <h2>Your Details</h2>
+            <form action="#" method="POST">
+ 
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+ 
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+ 
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone" name="phone">
+ 
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+ 
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+ 
+    <!-- Company contact info -->
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <address>
+            RCC Institute of Information Technology<br>
+           Beleghata<br>
+            Kolkata, West Bengal  700015<br>
+            Phone: <a href="tel:1234567890">123-456-7890</a><br>
+            Email: <a href="mailto:amit.jha9693@gmail.com">amit.jha9693@gmail.com</a>
+        </address>
+    </section>
+ 
+    <!-- Footer section -->
+    <footer>
+        <p>© 2023 Your Company. All rights reserved.</p>
+    </footer>
+    <script src="contact.js"></script>
+</body>
+ 
+</html>

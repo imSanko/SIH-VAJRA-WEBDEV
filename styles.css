@@ -1,0 +1,152 @@
+
+*,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins", "sans-serif";
+      }
+
+
+/* Add a background color and text color */
+body {
+
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  
+  color: #0a0a0a;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Navigation menu styles */
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #030303;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff7f50; /* Change color on hover */
+}
+
+/* Section styles */
+section {
+  background: rgb(45, 45, 45);
+  color: #fff;
+  padding: 5rem 0px;
+}
+
+h2 {
+  color: #009688;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #555;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Calculator styles */
+
+/* Footer styles */
+footer {
+  background-color: #009688;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+@media (max-width: 768px) {
+  header {
+      padding: 10px 0;
+  }
+
+  nav ul {
+      text-align: center;
+  }
+
+  nav li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  section {
+      padding: 20px;
+  }
+
+  
+ 
+  
+  
+}
+main {
+  height: 100vh;
+  /* width: 100%; */
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.container img {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#background {
+  transform: translateZ(-39px) scale(8);
+  width: 100%;
+}
+.container h1 {
+  position: absolute;
+  top: 3rem;
+  color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  font-size: 10rem;
+  font-weight: 700;
+  text-shadow: 0 0 2px black;
+}

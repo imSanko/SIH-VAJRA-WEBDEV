@@ -1,0 +1,123 @@
+
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", "sans-serif";
+}
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #009688;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Navigation menu styles */
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ff7f50; /* Change color on hover */
+  }
+  
+  /* Section styles */
+  section {
+    background: rgb(45, 45, 45);
+    color: #fff;
+    padding: 5rem 0px;
+  }
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+  
+    nav ul {
+        text-align: center;
+    }
+  
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+  
+    section {
+        padding: 20px;
+    }
+  
+    
+   
+    
+    
+  }
+.calculator {
+    background-color: #009688;
+    color: #fff;
+    padding: 40px;
+  }
+  
+  /* Form styles */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ff5722; /* Change color on hover */
+  }
+  
